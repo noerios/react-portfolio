@@ -9,12 +9,32 @@
 .hero-text{
     color: #b6c9bb;
     text-align: center; 
-    font-size: 3.6rem;
+    font-size: 1.6rem;
     span{
         color: #BFEDC1;
+        font-size: 2.2rem;
     }
 }
 
 .h-sub-text{
     text-align: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder{
+        margin-right: 1rem;
+        .icon{
+            font-size: 2.4rem;
+            color: #BFEDC1;
+
+        }
+        .icon:hover{
+            color: #9684A1;
+            font-size: 2.2rem;
+        }
+    }
 }

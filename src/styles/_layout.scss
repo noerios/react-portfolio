@@ -15,5 +15,8 @@
         //background-image: url(../img/black.texture.jpg);
         display: grid ;
         position: relative ;
+        .content{
+            margin: 5rem 15rem;
+        }
     }
 }

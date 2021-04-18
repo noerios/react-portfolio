@@ -30,11 +30,20 @@
         .icon{
             font-size: 2.4rem;
             color: #BFEDC1;
+            transition: all .4s ease-in-out;
 
         }
-        .icon:hover{
+        .gh:hover{
             color: #9684A1;
-            font-size: 2.2rem;
+            font-size: 2.4rem;
+        }
+        .ig:hover{
+            color: #9684A1;
+            font-size: 2.4rem;
+        }
+        .li:hover{
+            color: #9684A1;
+            font-size: 2.4rem;
         }
     }
 }

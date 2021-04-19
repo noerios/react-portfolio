@@ -2,6 +2,8 @@ import React from 'react';
 import Title from '../Components/Title';
 import ImageSection from '../Components/ImageSection';
 import SkillsSection from '../Components/SkillsSection';
+import ServicesSection from '../Components/ServicesSection';
+import design from '../img/design.png';
 
 function AboutPage() {
     return (
@@ -10,7 +12,7 @@ function AboutPage() {
             <Title title={'About Me'} span={'About Me'} />
             <ImageSection />
             <Title title={'My Skills'} span={'My Skills'} />
-            <div className=" ">
+            <div className="skills-container">
                 <SkillsSection skill={'HTML'} progress={'70%'} width={'70%'}/>
                 <SkillsSection skill={'CSS/SCSS'} progress={'50%'} width={'50%'}/>
                 <SkillsSection skill={'Bootstrap'} progress={'70%'} width={'70%'}/>
@@ -19,6 +21,9 @@ function AboutPage() {
                 <SkillsSection skill={'React js'} progress={'70%'} width={'70%'}/>
                 <SkillsSection skill={'MongoDB'} progress={'35%'} width={'35%'}/>
                 <SkillsSection skill={'Digital Content & Strategy'} progress={'80%'} width={'80%'}/>
+            </div>
+            <div className="services-container">
+                <ServicesSection image={design} />
             </div>
         </div>
     )

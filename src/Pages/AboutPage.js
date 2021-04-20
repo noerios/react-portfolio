@@ -1,5 +1,7 @@
 import React from 'react';
 import Title from '../Components/Title';
+
+import InfoSection from '../Components/InfoSection';
 import ImageSection from '../Components/ImageSection';
 import SkillsSection from '../Components/SkillsSection';
 import ServicesSection from '../Components/ServicesSection';
@@ -11,7 +13,8 @@ function AboutPage() {
     return (
         <div className="About">
             
-            <Title title={'About Me'} span={'About Me'} />
+            <Title title={'INFO'} span={'INFO'} />
+            <InfoSection />
             <ImageSection />
             <Title title={'My Skills'} span={'My Skills'} />
             <div className="skills-container">

@@ -1,22 +1,25 @@
 .ServicesSection {
     padding-top: 2rem;
-    width: 33%;
+    width: 44%;
     .service {
-        width: 95%;
+        width: 97%;
         height: 100%;
         background-color: #9684A1;
         border-left: 1px solid #B6C9BB;
         border-right: 1px solid #B6C9BB;
         border-bottom: 1px solid #B6C9BB;
-        border-top: 8px solid #B6C9BB;
+        border-top: 2px solid #B6C9BB;
         transition: .4s ease-in-out;
         &:hover {
-            border-top: 8px solid #BFEDC1;
+            border-top: 2px solid #BFEDC1;
+            background-color: #b6c9bb70;
         }
         .service-content {
             padding: 1rem;
-            img{
-                width: 50%;
+            .image-tab{
+                img{
+                    height: 55px;
+                }
             }
             .s-title {
                 font-size: 1.6rem;

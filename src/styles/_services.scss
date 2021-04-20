@@ -1,0 +1,46 @@
+.ServicesSection {
+    padding-top: 2rem;
+    width: 33%;
+    .service {
+        width: 95%;
+        height: 100%;
+        background-color: #9684A1;
+        border-left: 1px solid #B6C9BB;
+        border-right: 1px solid #B6C9BB;
+        border-bottom: 1px solid #B6C9BB;
+        border-top: 8px solid #B6C9BB;
+        transition: .4s ease-in-out;
+        &:hover {
+            border-top: 8px solid #BFEDC1;
+        }
+        .service-content {
+            padding: 1rem;
+            img{
+                width: 50%;
+            }
+            .s-title {
+                font-size: 1.6rem;
+                font-weight: 500;
+                position: relative;
+                padding-bottom: 1rem;
+                margin: 1rem 0;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 40%;
+                    height: 1px;
+                    background-color: #B6C9BB;
+                }
+            }
+        }
+    }
+
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+
+}

@@ -1,7 +1,8 @@
 .Title{
     text-transform: uppercase;
-    font-size: 2rem;
-    color: #B6C9BB;
+    font-weight: 300;
+    font-size: .5rem;
+    color: #0C090D;
     position: relative;
     padding-bottom: 1rem;
     letter-spacing: 3px;
@@ -10,7 +11,7 @@
         bottom: 0;
         position: absolute;
         left: 0;
-        background-color: #b6c9bb70;
+        background-color: #C36C32;
         width: 6rem;
         height: .2rem;
         border-radius: 50px;
@@ -21,7 +22,7 @@
         bottom: 0;
         position: absolute;
         left: 0;
-        background-color: #B6C9BB;
+        background-color: #c36c3275;
         width: 3rem;
         height: .2rem;
         border-radius: 50px;
@@ -30,7 +31,7 @@
         position: absolute;
         top: 15%;
         left: 0;
-        font-size: 5rem;
+        font-size: 2rem;
         opacity: 0.07;
     }
 }

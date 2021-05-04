@@ -7,43 +7,51 @@
 }
 
 .hero-text{
-    color: #b6c9bb;
-    text-align: center; 
-    font-size: 1.6rem;
+    color: #0C090D;
+    text-align: left; 
     span{
-        color: #BFEDC1;
-        font-size: 2.2rem;
+        color: #0C090D;
+        font-size: 10rem;
+        font-weight: 300;
     }
 }
 
+.hero-two-text{
+    color: #0C090D;
+    text-align: left;
+    font-size: 2rem;
+
+}
+
 .h-sub-text{
-    text-align: center;
+    text-align: left;
+    font-size: 1rem;
+    color: #0C090D;
 }
 
 .icons{
-    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 0;
+    padding: 2rem;
     .icon-holder{
         margin-right: 1rem;
         .icon{
-            font-size: 2.4rem;
-            color: #BFEDC1;
+            font-size: 2rem;
+            color: #7F636E;
             transition: all .4s ease-in-out;
 
         }
         .gh:hover{
-            color: #9684A1;
-            font-size: 2.4rem;
+            color: #C36C32;
+            font-size: 2rem;
         }
         .ig:hover{
-            color: #9684A1;
-            font-size: 2.4rem;
+            color: #C36C32;
+            font-size: 2rem;
         }
         .li:hover{
-            color: #9684A1;
-            font-size: 2.4rem;
+            color: #C36C32;
+            font-size: 2rem;
         }
     }
 }

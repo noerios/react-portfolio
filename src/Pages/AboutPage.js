@@ -13,7 +13,7 @@ function AboutPage() {
     return (
         <div className="About">
             
-            <Title title={'INFO'} span={'INFO'} />
+            <Title title={'WEB DEVELOPER'} span={'WEB DEVELOPER'} />
             <InfoSection />
             <ImageSection />
             <Title title={'My Skills'} span={'My Skills'} />

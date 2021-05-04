@@ -8,7 +8,7 @@ function ImageSection() {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4> I am <span>Noe Rios</span></h4>
+                <h4>developed by <span>Noe Rios</span></h4>
                 <p className="about-text">
                     things about me go here lots ofthem and they keppgooing sldksdflsdf
                     more sthaff aslk slemsli thsil 

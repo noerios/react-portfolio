@@ -1,6 +1,13 @@
 import React from 'react';
-import avatar from "../img/noerioslogo.png";
 import {NavLink} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faInstagram} from '@fortawesome/free-brands-svg-icons';
+
+
+import {Link} from 'react-router-dom';
+
 
 function NavBar() {
     return (
@@ -8,7 +15,7 @@ function NavBar() {
             
             <nav className="nav">
                 <div className="profile">
-                    <img src={avatar} alt=""/>
+                    Rolando Noe Rios
                 </div>
                 <ul className="nav-items">
                     <li className="nav-item">
@@ -38,9 +45,19 @@ function NavBar() {
                     </li>
                 </ul>
                 <footer className="footer">
-                    <p>
-                    @2021 Noe Rios React
-                    </p>
+                <div className="icons">
+                    <Link className="icon-holder">
+                        <FontAwesomeIcon icon={faLinkedin} className="icon li" />
+                    </Link>
+                    <Link className="icon-holder">
+                        <FontAwesomeIcon icon={faGithub} className="icon gh" />
+                    </Link>
+                    <Link className="icon-holder">
+                        <FontAwesomeIcon icon={faInstagram} className="icon ig" />
+                    </Link>
+                    
+                    
+                </div>
                 </footer>
             </nav>
             

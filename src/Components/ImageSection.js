@@ -8,26 +8,24 @@ function ImageSection() {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>developed by <span>Noe Rios</span></h4>
+                <h4>site developed by <span>Rolando Noe Rios</span> with React</h4>
                 <p className="about-text">
-                    things about me go here lots ofthem and they keppgooing sldksdflsdf
-                    more sthaff aslk slemsli thsil 
-                    sldsdfn tho sowlsn shd sldieh
+                    Full stack developer with a passion for front end. After ten years in the digital marketing space, I've pivoted to building beautiful and effective web presences for clients. 
                 </p>
                 <div className="about-details">
                     <div className="left-section">
-                        <p>FullName</p>
+                        <p>Name</p>
                         <p>Age</p>
                         <p>Location</p>
                         <p>Languages</p>
                         <p>Specialties</p>
                     </div>
                     <div className="right-section">
-                        <p>: Noe Rios</p>
+                        <p>: Rolando Noe Rios</p>
                         <p>: 37</p>
                         <p>: Austin, Tx</p>
                         <p>: English, Spanish</p>
-                        <p>: React</p>
+                        <p>: React, SAAS, NodeJS</p>
                     </div>
                 </div>
                 <button className="btn">Download Cv</button>

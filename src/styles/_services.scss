@@ -4,15 +4,19 @@
     .service {
         width: 97%;
         height: 100%;
-        background-color: #9684A1;
-        border-left: 1px solid #B6C9BB;
-        border-right: 1px solid #B6C9BB;
-        border-bottom: 1px solid #B6C9BB;
-        border-top: 2px solid #B6C9BB;
+        background-color: #f4f4f9;
+        border-left: 1px solid #0c090d;
+        border-right: 1px solid #0c090d;
+        border-bottom: 1px solid #0c090d;
+        border-top: 1px solid #0c090d;
         transition: .4s ease-in-out;
         &:hover {
-            border-top: 2px solid #BFEDC1;
-            background-color: #b6c9bb70;
+            border-top: 1px solid #c36c32;
+            border-left: 1px solid #c36c32;
+            border-right: 1px solid #c36c32;
+            border-bottom: 1px solid #c36c32;
+            background-color: #c36c32;
+            color: #f4f4f9;
         }
         .service-content {
             padding: 1rem;
@@ -34,7 +38,7 @@
                     left: 0;
                     width: 40%;
                     height: 1px;
-                    background-color: #B6C9BB;
+                    background-color: #7f636e;
                 }
             }
         }

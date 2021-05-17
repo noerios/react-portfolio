@@ -41,3 +41,5 @@ const portfolios = [
         title: 'Workday Scheduler'
     }
 ]
+
+export default portfolios;

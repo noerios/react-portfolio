@@ -14,7 +14,7 @@ function PortfoliosPage() {
             <div className="title">
                 <Title title={'Portfolio'} span={'portfolio'} />
             </div>
-            <div className="portfolios">
+            <div className="portfolios-data">
                 <Categories />
                 <MenuItems menuItem={menuItems} />
             </div>

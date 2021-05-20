@@ -5,7 +5,7 @@ function InfoSection() {
         <div className="InfoSection">
             <div className="about-info">
                 <p className="about-text">
-                    graduate of the university of texas coding bootcamp certificate program
+                    veteran digital marketer and graduate of the <span>UT Austin Full-Stack Coding Bootcamp</span> certificate program
                 </p>
             </div>
         </div>

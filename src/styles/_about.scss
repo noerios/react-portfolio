@@ -1,3 +1,9 @@
+.hero{
+    padding-bottom: 30vh;
+    border-bottom: 1px solid #0c090d;
+    margin-bottom: 20px;
+}
+
 .ImageSection{
     display: flex;
     margin-top: 4rem;
@@ -74,4 +80,27 @@
     column-gap: 4rem;
     row-gap: 3rem;
     margin: 4rem 0;
+}
+
+.btn-port{
+    padding: .3rem 1rem;
+    background-color: #C36C32;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    color: #F4F4F9;
+    margin-bottom: 2rem;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+    flex-wrap: wrap;
 }

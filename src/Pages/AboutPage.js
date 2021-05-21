@@ -12,7 +12,16 @@ import react from '../img/react.png';
 function AboutPage() {
     return (
         <div className="About">
-            
+            <header className="hero">
+                <h1 className="hero-text">
+                    <span>INFO</span> 
+                </h1>
+                <h1 className="hero-two-text">I am an Austin-based web developer focused on building stunning, component-based websites with React.</h1>
+                <p className="h-sub-text">
+                    My name is Rolando Noe Rios. I was born in San Antonio and have since circled the globe, building my perspective along the way. In Asia, I learned that design can and should surprise you. In Latin America I learned that my culture can be my strength. Berlin taught me that sleep isn't totally necessary, and Italy awakened my love for classic style and beauty.
+                </p>
+                
+            </header>
             <Title title={'WEB DEVELOPER'} span={'WEB DEVELOPER'} />
             <InfoSection />
             <ImageSection />

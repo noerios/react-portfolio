@@ -45,7 +45,15 @@ const portfolios = [
         icon1: 'Go',
         image: scheduler,
         title: 'Workday Scheduler'
-    }
+    },
+    {
+        id: 7,
+        category: 'Squarespace',
+        link1: 'www.ocioranch.com',
+        icon1: 'Go',
+        image: ocio,
+        title: 'Ocio Ranch'
+    },
 ]
 
 export default portfolios;

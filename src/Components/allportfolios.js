@@ -8,11 +8,12 @@ import scheduler from '../img/portImages/WorkdaySchedulerScreenshot.png';
 const portfolios = [
     {
         id: 1,
-        category: 'Squarespace',
+        category: 'CMS',
         link1: 'www.ocioranch.com',
         icon1: 'Go',
         image: ocio,
-        title: 'Ocio Ranch'
+        title: 'Ocio Ranch',
+        note: 'Photography, copywriting, content, styling and design within a Squarespace CMS.'
     },
     {
         id: 2,
@@ -20,7 +21,8 @@ const portfolios = [
         link1: 'babar-shop.herokuapp.com/',
         icon1: 'Go',
         image: barber,
-        title: 'Barbershop Booker'
+        title: 'Barbershop Booker',
+        note: 'Photography, copywriting, content, styling and design within a Squarespace CMS.'
     },
     {
         id: 3,
@@ -28,15 +30,17 @@ const portfolios = [
         link1: 'noerios.github.io/homework3/',
         icon1: 'Go',
         image: password,
-        title: 'Password Generator'
+        title: 'Password Generator',
+        note: 'Javascript-powered password generator, later refactored to include some Materialize styling.'
     },
     {
         id: 4,
-        category: 'Wix',
+        category: 'CMS',
         link1: 'www.rolandorioslaw.com',
         icon1: 'Go',
         image: rioslaw,
-        title: 'Rolando Rios Law'
+        title: 'Rolando Rios Law',
+        note: 'Photography, copywriting, content, styling and design within a Squarespace CMS.'
     },
     {
         id: 5,
@@ -44,15 +48,17 @@ const portfolios = [
         link1: 'noerios.github.io/homework5/',
         icon1: 'Go',
         image: scheduler,
-        title: 'Workday Scheduler'
+        title: 'Workday Scheduler',
+        note: 'Photography, copywriting, content, styling and design within a Squarespace CMS.'
     },
     {
         id: 7,
-        category: 'Squarespace',
+        category: 'CMS',
         link1: 'www.ocioranch.com',
         icon1: 'Go',
         image: ocio,
-        title: 'Ocio Ranch'
+        title: 'Ocio Ranch',
+        note: 'Photography, copywriting, content, styling and design within a Squarespace CMS.'
     },
 ]
 

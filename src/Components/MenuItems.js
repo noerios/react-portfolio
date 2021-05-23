@@ -17,7 +17,7 @@ function MenuItems ({menuItem}) {
                             <h5>
                                 {item.title}
                             </h5>
-                            <p>placeholder paragraph goes here and will have i asusme info about the project.</p>
+                            <p>{item.note}</p>
                         </div>
                 })
             }

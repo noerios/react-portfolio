@@ -92,9 +92,20 @@
     font-family: inherit;
     color: #F4F4F9;
     margin-bottom: 2rem;
+    transition: all .3s ease-in-out;
     &:not(:last-child){
         margin-right: 1rem;
     }
+    &:hover{
+        background-color: #7F636E;
+    }
+    &:active{
+        background-color: #7F636E;
+    }
+    &:focus{
+        background-color: #7F636E;
+    }
+    
 }
 
 .buttons{

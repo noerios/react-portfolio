@@ -46,13 +46,13 @@ function NavBar() {
                 </ul>
                 <footer className="footer">
                 <div className="icons">
-                    <Link className="icon-holder">
+                    <Link to="https://www.linkedin.com/in/rnoerios/" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon li" />
                     </Link>
-                    <Link className="icon-holder">
+                    <Link to="https://github.com/noerios" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </Link>
-                    <Link className="icon-holder">
+                    <Link to="https://www.instagram.com/noway1010/" className="icon-holder">
                         <FontAwesomeIcon icon={faInstagram} className="icon ig" />
                     </Link>
                     

@@ -9,6 +9,11 @@
     row-gap: 1.5rem;
     column-gap: .5rem;
     .portfolio{
+        padding: 4rem 6rem;
+        border-left: 1px solid #0c090d;
+        border-right: 1px solid #0c090d;
+        border-bottom: 1px solid #0c090d;
+        border-top: 1px solid #0c090d;
         .image-data{
             position: relative;
             &::before{
@@ -67,6 +72,7 @@
         }
         
         h5{
+            padding-top: 20px;
             font-size: 1.2rem;
             font-weight: 500;
             color: #C36C32;

@@ -1,6 +1,6 @@
 .hero{
     padding-bottom: 30vh;
-    border-bottom: 1px solid #0c090d;
+    border-bottom: 2px solid #0c090d;
     margin-bottom: 20px;
 }
 
@@ -8,7 +8,8 @@
     display: flex;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    
+    padding-bottom: 15px;
+    border-bottom: solid 2px black;
     
     .img{
         width: 100%;
@@ -77,9 +78,8 @@
 .skills-container{
     display:  grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 4rem;
-    row-gap: 3rem;
-    margin: 4rem 0;
+    column-gap: 5rem;
+    row-gap: 1rem;
 }
 
 .btn-port{

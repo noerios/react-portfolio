@@ -10,7 +10,7 @@ function ImageSection() {
             <div className="about-info">
                 <h4>site developed by <span>Rolando Noe Rios</span> with React</h4>
                 <p className="about-text">
-                    Full stack developer with a focus on creating beautiful user experiences. After ten years in the digital marketing space, I've pivoted to building clean and effective web platforms for clients. 
+                    Full stack developer with a focus on creating beautiful user experiences. After ten years in the digital marketing space, strategizing online presences and creating web and social content for brands of all types, I've pivoted to building clean and effective web platforms. 
                 </p>
                 <div className="about-details">
                     <div className="left-section">

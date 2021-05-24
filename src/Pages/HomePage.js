@@ -1,17 +1,23 @@
 import React from 'react';
+import VideoBg from 'reactjs-videobg';
+import poster from '../img/black.texture.jpg';
+import backgroundvid from '../img/pexelsball.mp4';
 
 function HomePage() {
     return (
         <div className="HomePage">
-            <header className="hero">
-                <h1 className="hero-text">
-                    <span>INFO</span> 
-                </h1>
-                <h1 className="hero-two-text">Lorem   iii     ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                <p className="h-sub-text">
-                    Rolando Noe Rios    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
+        <VideoBg className="background" poster={poster}>
+            <VideoBg.Source src={backgroundvid} type="video/mp4" />
+        </VideoBg>
+            <header className="banner">
                 
+                <h1 className="banner-text">
+                    <span>Rios Dev</span> 
+                </h1>
+                <h1 className="banner-two-text">Content. Web Design. User Experience. Web Development.</h1>
+                <p className="b-sub-text">
+                    I focus on all aspects of your online presence.
+                </p>
             </header>
             
         </div>

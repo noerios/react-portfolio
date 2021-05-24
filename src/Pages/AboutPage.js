@@ -14,7 +14,7 @@ function AboutPage() {
         <div className="About">
             <header className="hero">
                 <h1 className="hero-text">
-                    <span>INFO</span> 
+                    <span>details</span> 
                 </h1>
                 <h1 className="hero-two-text">I am an Austin-based web developer focused on building stunning, component-based websites with React.</h1>
                 <p className="h-sub-text">

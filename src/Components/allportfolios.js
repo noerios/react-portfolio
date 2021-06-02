@@ -27,7 +27,7 @@ const portfolios = [
     {
         id: 3,
         category: 'Javascript',
-        link1: 'https://noerios.github.io/homework3/',
+        link1: 'https://noerios.github.io/PasswordGenerator/',
         icon1: 'Go',
         image: password,
         title: 'Password Generator',

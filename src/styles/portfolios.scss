@@ -2,6 +2,32 @@
 
 }
 
+.buttons{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: .5rem;
+    margin: 3rem 0rem;
+    .btn-port{
+        width: 100%;
+        background-color: inherit;
+        color: #0C090D;
+        border-left: 2px solid #0c090d;
+        border-right: 2px solid #0c090d;
+        border-bottom: 2px solid #0c090d;
+        border-top: 2px solid #0c090d;
+        transition: .4s ease-in-out;
+        &:hover {
+            border-top: 1px solid #c36c32;
+            border-left: 1px solid #c36c32;
+            border-right: 1px solid #c36c32;
+            border-bottom: 1px solid #c36c32;
+            background-color: #c36c32;
+            color: #f4f4f9;
+        }
+    }
+}
+
 .portfolios{
     width: 100%;
     display: grid;
@@ -10,10 +36,10 @@
     column-gap: .5rem;
     .portfolio{
         padding: 4rem 6rem;
-        border-left: 1px solid #0c090d;
-        border-right: 1px solid #0c090d;
-        border-bottom: 1px solid #0c090d;
-        border-top: 1px solid #0c090d;
+        border-left: 2px solid #0c090d;
+        border-right: 2px solid #0c090d;
+        border-bottom: 2px solid #0c090d;
+        border-top: 2px solid #0c090d;
         .image-data{
             position: relative;
             &::before{

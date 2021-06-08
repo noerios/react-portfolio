@@ -38,3 +38,8 @@ span{
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 411px) {
+    html{
+        font-size: 70%;
+    }
+}

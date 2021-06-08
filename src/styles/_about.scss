@@ -32,7 +32,16 @@
             font-size: 1rem;
         }
     }
+    @media screen and (max-width: 1400px){
+        flex-direction: column;
+        .about-info{
+            margin-left: 0;
+            margin-top: 1rem;
+        }
+    }
+    
 }
+
 
 .about-details{
     display: flex;
@@ -80,6 +89,9 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5rem;
     row-gap: 1rem;
+    @media screen and (max-width: 1100px){
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .btn-port{

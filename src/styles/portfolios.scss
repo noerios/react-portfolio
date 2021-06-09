@@ -8,6 +8,9 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: .5rem;
     margin: 3rem 0rem;
+    @media screen and (max-width: 500px){
+        grid-template-columns: repeat(2, 1fr);
+    }
     .btn-port{
         width: 100%;
         background-color: inherit;
@@ -34,6 +37,9 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
     column-gap: .5rem;
+    @media screen and (max-width: 1300px){
+        grid-template-columns: repeat(1, 1fr);
+    }
     .portfolio{
         padding: 4rem 6rem;
         border-left: 2px solid #0c090d;

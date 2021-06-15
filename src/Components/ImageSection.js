@@ -5,7 +5,7 @@ function ImageSection() {
     return (
         <div className="ImageSection">
             <div className="img">
-                <img src={about} alt=""/>
+                <img src={about} alt="headshot"/>
             </div>
             <div className="about-info">
                 <h4>site developed by <span>Rolando Noe Rios</span> with React</h4>

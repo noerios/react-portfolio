@@ -76,18 +76,20 @@
                 top: 70%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                background-color: #C36C32;
+                border: solid #7f636e9d;
                 padding: 1rem 2rem;
                 visibility: hidden;
+                border-radius: 50%;
                 li{
                     position: relative;
                     a{
-                        position: absolute;
+                        
                         padding: 1rem;
                         text-decoration: none;
+                        color: #F4F4F9;
                         font-family: inherit;
                         border-radius: 100%;
-                        background-color: #F4F4F9;
+                        background-color: #7F636E;
                         top: 0;
                     }
                 }

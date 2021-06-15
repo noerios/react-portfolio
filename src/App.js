@@ -6,6 +6,7 @@ import AboutPage from './Pages/AboutPage';
 import PortfoliosPage from './Pages/PortfoliosPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
+import ResumePage from './Pages/ResumePage';
 import { useState } from 'react';
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
             </Route>
             <Route path="/contact" exact>
               <ContactPage />
+            </Route>
+            <Route path="/resume" exact>
+              <ResumePage />
             </Route>
           </Switch>
   

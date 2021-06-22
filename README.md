@@ -6,3 +6,6 @@ My focus for this project was to spend time building a beautiful and engaging po
 
 
 Deployed Link: https://radiant-depths-84649.herokuapp.com/
+
+
+Technologies used: React, Saas Cascading Styling, React Dom, React Router Dom

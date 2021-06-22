@@ -1,6 +1,15 @@
 .SkillsSection{
    margin-bottom: 2rem;
    border: 2px #000 solid;
+   transition: .4s ease-in-out;
+   &:hover {
+    border-top: 1px solid #c36c32;
+    border-left: 1px solid #c36c32;
+    border-right: 1px solid #c36c32;
+    border-bottom: 1px solid #c36c32;
+    background-color: #c36c32;
+    color: #f4f4f9;
+}
 }
 
 .skills-container{

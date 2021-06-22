@@ -25,18 +25,21 @@ function AboutPage() {
             <Title title={'WEB DEVELOPER'} span={'WEB DEVELOPER'} />
             <InfoSection />
             <ImageSection />
+            <br></br>
             <Title title={'My Skills'} span={'My Skills'} />
             <div className="skills-container">
-                <SkillsSection skill={'HTML'} progress={'70%'} width={'70%'}/>
-                <SkillsSection skill={'CSS/SCSS'} progress={'50%'} width={'50%'}/>
-                <SkillsSection skill={'Bootstrap'} progress={'70%'} width={'70%'}/>
-                <SkillsSection skill={'Javascript'} progress={'40%'} width={'40%'}/>
-                <SkillsSection skill={'Node js'} progress={'70%'} width={'70%'}/>
-                <SkillsSection skill={'React js'} progress={'70%'} width={'70%'}/>
-                <SkillsSection skill={'MongoDB'} progress={'35%'} width={'35%'}/>
-                <SkillsSection skill={'Digital Content & Strategy'} progress={'80%'} width={'80%'}/>
+                <SkillsSection skill={'HTML'} />
+                <SkillsSection skill={'CSS/SCSS'} />
+                <SkillsSection skill={'Bootstrap'} />
+                <SkillsSection skill={'Javascript'} />
+                <SkillsSection skill={'Node js'} />
+                <SkillsSection skill={'Express'} />
+                <SkillsSection skill={'React js'} />
+                <SkillsSection skill={'MongoDB'} />
+                <SkillsSection skill={'Digital Content & Strategy'} />
             </div>
-
+            <br></br>
+            <br></br>
             <Title title={'Services'} span={'Services'} />
             <div className="services-container">
                 <ServicesSection image={design} title={'Web Design'} 

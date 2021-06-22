@@ -35,6 +35,7 @@ function AboutPage() {
                 <SkillsSection skill={'Node js'} />
                 <SkillsSection skill={'Express'} />
                 <SkillsSection skill={'React js'} />
+                <SkillsSection skill={'Handlebars'} />
                 <SkillsSection skill={'MongoDB'} />
                 <SkillsSection skill={'Digital Content & Strategy'} />
             </div>

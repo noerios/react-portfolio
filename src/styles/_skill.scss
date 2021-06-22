@@ -1,5 +1,5 @@
 .SkillsSection{
-   margin-bottom: 2rem;
+   margin-bottom: 10px;
    border: 2px #000 solid;
    transition: .4s ease-in-out;
    &:hover {
@@ -15,7 +15,6 @@
 .skills-container{
     margin-top: 2.5rem;
     
-    
 
 
     .skill-title{
@@ -23,6 +22,7 @@
         font-weight: 400;
         margin-left: 6.08vw;
         margin-bottom: 2vw;
+        text-transform: uppercase;
         
     }
 }

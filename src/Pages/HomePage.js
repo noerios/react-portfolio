@@ -16,7 +16,7 @@ function HomePage() {
                 </h1>
                 <h1 className="banner-two-text">Content. Web Design. User Experience. Web Development.</h1>
                 <p className="b-sub-text">
-                    I focus on all aspects of your online presence.
+                    Let's do this.
                 </p>
             </header>
             

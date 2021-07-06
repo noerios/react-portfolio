@@ -3,6 +3,7 @@ import barber from '../img/portImages/BarberBookerScreen.png';
 import password from '../img/portImages/Password_Feature_art.gif'
 import rioslaw from '../img/portImages/RLR.Logo.jpeg';
 import scheduler from '../img/portImages/WorkdaySchedulerScreenshot.png';
+import blog from '../img/portImages/jsblog.jpg'
 
 
 const portfolios = [
@@ -53,12 +54,12 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'CMS',
-        link1: 'https://www.ocioranch.com',
+        category: 'NextJS',
+        link1: 'https://nextjsblog-sigma.vercel.app/',
         icon1: 'Go',
-        image: ocio,
-        title: 'Ocio Ranch',
-        note: 'Photography, copywriting, content, styling and design within a Squarespace CMS.'
+        image: blog,
+        title: 'NextJS Blog',
+        note: 'Photography, copywriting, content, styling and design with NextJS and SASS.'
     },
 ]
 

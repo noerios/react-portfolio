@@ -1,7 +1,7 @@
 import ocio from '../img/portImages/OcioRanchDiscoball.jpg';
 import barber from '../img/portImages/BarberBookerScreen.png';
 import password from '../img/portImages/Password_Feature_art.gif'
-import rioslaw from '../img/portImages/RLR.Logo.jpeg';
+import rioslaw from '../img/portImages/rlrlaw.jpg';
 import scheduler from '../img/portImages/WorkdaySchedulerScreenshot.png';
 import blog from '../img/portImages/jsblog.jpg'
 
@@ -39,13 +39,13 @@ const portfolios = [
     },
     {
         id: 4,
-        category: 'CMS',
-        link1: 'https://www.rolandorioslaw.com',
-        link2: 'https://www.rolandorioslaw.com',
+        category: 'ReactJS',
+        link1: 'https://rlr-mockup.herokuapp.com/',
+        link2: 'https://github.com/noerios/rlrLaw_site',
         icon1: 'Go',
         image: rioslaw,
         title: 'Rolando Rios Law',
-        note: '2012 - Photography, copywriting, content, styling and design within a Wix CMS.'
+        note: '2021 - Work in progress new build of the Rolando Rios Law site using ReactJS and implementing features such as scrolling nav, user interactions, and responsive design.'
     },
     {
         id: 5,

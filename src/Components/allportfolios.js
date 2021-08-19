@@ -9,13 +9,13 @@ import blog from '../img/portImages/jsblog.jpg'
 const portfolios = [
     {
         id: 1,
-        category: 'CMS',
-        link1: 'https://www.ocioranch.com',
-        link2: 'https://www.ocioranch.com',
+        category: 'ReactJS',
+        link1: 'https://thawing-inlet-75700.herokuapp.com/',
+        link2: 'https://github.com/noerios/byenoe-blog',
         icon1: 'Go',
-        image: ocio,
-        title: 'Ocio Ranch',
-        note: '2020 - Photography, copywriting, content, styling and design within a Squarespace CMS.'
+        image: blog,
+        title: 'ByeNoe Blog',
+        note: '2021 - MERN Stack application that uses MongoDB to house a database of content that can be sorted by category and presented to the user. All content, copywriting, and photography was pulled from my 2016 trip around the world with Remote Year. The application is fully responsive.'
     },
     {
         id: 2,
@@ -58,14 +58,14 @@ const portfolios = [
         note: '2020 - Photography, copywriting, content, styling and design within a Squarespace CMS.'
     },
     {
-        id: 7,
-        category: 'NextJS',
-        link1: 'https://nextjsblog-sigma.vercel.app/',
-        link2: 'https://github.com/noerios/nextjsblog',
+        id: 6,
+        category: 'CMS',
+        link1: 'https://www.ocioranch.com',
+        link2: 'https://www.ocioranch.com',
         icon1: 'Go',
-        image: blog,
-        title: 'NextJS Blog',
-        note: '2021 - Photography, copywriting, content, styling and design with NextJS and SASS.'
+        image: ocio,
+        title: 'Ocio Ranch',
+        note: '2020 - Photography, copywriting, content, styling and design within a Squarespace CMS.'
     },
 ]
 

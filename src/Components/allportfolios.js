@@ -55,7 +55,7 @@ const portfolios = [
         icon1: 'Go',
         image: scheduler,
         title: 'Workday Scheduler',
-        note: '2020 - Photography, copywriting, content, styling and design within a Squarespace CMS.'
+        note: '2020 - A simple workday scheduler that uses MomentJS to determine what time of day it is currently, and serves the user highlighted time-fields in which to store notes. The application will change colors throughout the day depending on what time it is.'
     },
     {
         id: 6,

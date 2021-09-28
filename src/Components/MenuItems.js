@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function MenuItems ({menuItem}) {
     return (
         <div className="portfolios">
@@ -17,6 +18,7 @@ function MenuItems ({menuItem}) {
                             <h5>
                             <a target="_blank" rel="noreferrer" href={item.link2}>{item.title}</a>
                             </h5>
+                            
                             <p>{item.note}</p>
                             
                         </div>

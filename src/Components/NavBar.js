@@ -6,8 +6,6 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 
-import {Link} from 'react-router-dom';
-
 
 function NavBar() {
     return (
@@ -33,11 +31,9 @@ function NavBar() {
                             Portfolio
                         </NavLink>
                     </li>
-                    {/* <li className="nav-item">
-                        <NavLink to="/blog" exact activeClassName="active">
-                            Blog
-                        </NavLink>
-                    </li> */}
+                    <li className="nav-item">
+                        <a target="_blank" href="https://thawing-inlet-75700.herokuapp.com/">Blog</a>
+                    </li>
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
                             Contact
@@ -46,13 +42,13 @@ function NavBar() {
                 </ul>
                 <footer className="footer">
                 <div className="icons">
-                    <a target="_blank" href="https://www.linkedin.com/in/rnoerios/" className="icon-holder">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rnoerios/" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon li" />
                     </a>
-                    <a target="_blank" href="https://github.com/noerios" className="icon-holder">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/noerios" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </a>
-                    <a target="_blank" href="https://www.instagram.com/noway1010/" className="icon-holder">
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/noway1010/" className="icon-holder">
                         <FontAwesomeIcon icon={faInstagram} className="icon ig" />
                     </a>
                     

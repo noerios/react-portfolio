@@ -3,7 +3,35 @@
   height: 100vh;
   background-color: #F4F4F9;
   position: fixed;
+  z-index: 11;
   border-right: 2px solid #0C090D;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .App .sidebar {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .App .sidebar {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .App .nav-toggle {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 .App .main-content {
@@ -20,6 +48,73 @@
   margin: 5rem 2rem;
 }
 
+@media screen and (max-width: 1100px) {
+  .App .main-content .content {
+    margin: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .App .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .App .main-content {
+    margin: 2rem auto;
+  }
+}
+
+.banner {
+  padding-bottom: 30vh;
+  border-bottom: 2px solid #F4F4F9;
+  margin-bottom: 20px;
+}
+
+.nav-btn {
+  position: absolute;
+  z-index: 10;
+  right: 10%;
+  top: 5%;
+  width: 4rem;
+  height: 4rem;
+  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.nav-btn .lines-1, .nav-btn .lines-2, .nav-btn .lines-3 {
+  height: .3rem;
+  width: 100%;
+  background-color: #C36C32;
+  pointer-events: none;
+  display: none;
+  border-radius: 20px;
+}
+
+.nav-btn .lines-1:not(:last-child), .nav-btn .lines-2:not(:last-child), .nav-btn .lines-3:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-btn {
+    display: block;
+  }
+  .nav-btn .lines-1, .nav-btn .lines-2, .nav-btn .lines-3 {
+    display: block;
+  }
+}
+
 .HomePage {
   position: absolute;
   top: 50%;
@@ -27,6 +122,43 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 80%;
+}
+
+.banner {
+  background-color: #0c090d3b;
+}
+
+.banner-text {
+  color: #F4F4F9;
+  text-align: left;
+  border-bottom: 2px solid #F4F4F9;
+  border-top: 2px solid #F4F4F9;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 5px;
+}
+
+.banner-text span {
+  color: #F4F4F9;
+  font-size: 10rem;
+  font-weight: 300;
+}
+
+.banner-two-text {
+  color: #F4F4F9;
+  text-align: left;
+  font-size: 2rem;
+  margin-left: 5px;
+}
+
+.b-sub-text {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-size: 1rem;
+  color: #F4F4F9;
+  margin-left: 5px;
 }
 
 .hero-text {
@@ -70,7 +202,7 @@
 }
 
 .icons .icon-holder .icon {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #7F636E;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
@@ -78,17 +210,17 @@
 
 .icons .icon-holder .gh:hover {
   color: #C36C32;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .icons .icon-holder .ig:hover {
   color: #C36C32;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .icons .icon-holder .li:hover {
   color: #C36C32;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .NavBar .nav {
@@ -227,6 +359,8 @@
   display: flex;
   margin-top: 4rem;
   margin-bottom: 4rem;
+  padding-bottom: 15px;
+  border-bottom: solid 2px black;
 }
 
 .ImageSection .img {
@@ -241,6 +375,13 @@
   height: 100%;
 }
 
+@media screen and (max-width: 1400px) {
+  .ImageSection .img {
+    height: 50%;
+    width: 50%;
+  }
+}
+
 .ImageSection .about-info {
   margin-left: 2rem;
 }
@@ -253,6 +394,19 @@
 .ImageSection .about-info .about-text {
   padding: 1rem 0;
   font-size: 1rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .ImageSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ImageSection .about-info {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
 }
 
 .about-details {
@@ -307,10 +461,16 @@
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  -webkit-column-gap: 4rem;
-          column-gap: 4rem;
-  row-gap: 3rem;
-  margin: 4rem 0;
+  -webkit-column-gap: 5rem;
+          column-gap: 5rem;
+  row-gap: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .skills-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .btn-port {
@@ -343,65 +503,35 @@
   background-color: #7F636E;
 }
 
-.buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 3rem 0rem;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.SkillsSection {
+  margin-bottom: 10px;
+  border: 2px #000 solid;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.SkillsSection:hover {
+  border-top: 1px solid #c36c32;
+  border-left: 1px solid #c36c32;
+  border-right: 1px solid #c36c32;
+  border-bottom: 1px solid #c36c32;
+  background-color: #c36c32;
+  color: #f4f4f9;
 }
 
 .skills-container {
-  margin: 1rem 0;
+  margin-top: 2.5rem;
 }
 
 .skills-container .skill-title {
   font-size: 1rem;
   font-weight: 400;
-}
-
-.skills-container .skill-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.skills-container .skill-bar .skill-text {
-  font-size: 1rem;
-}
-
-.skills-container .skill-bar .skill-progress {
-  width: 100%;
-}
-
-.skills-container .skill-bar .skill-progress .progress {
-  width: 100%;
-  height: .5rem;
-  margin-left: 1rem;
-  background-color: #9684a1ab;
-  position: relative;
-}
-
-.skills-container .skill-bar .skill-progress .progress .inner-progress {
-  position: absolute;
-  background-color: #7f636e;
-  height: 100%;
-  bottom: 0;
-  left: 0;
+  margin-left: 6.08vw;
+  margin-bottom: 2vw;
+  text-transform: uppercase;
 }
 
 .ServicesSection {
-  padding-top: 2rem;
   width: 44%;
 }
 
@@ -415,6 +545,13 @@
   border-top: 2px solid #0c090d;
   -webkit-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
+}
+
+@media screen and (max-width: 1400px) {
+  .ServicesSection .service {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
 
 .ServicesSection .service:hover {
@@ -545,6 +682,44 @@
   margin-bottom: 5rem;
 }
 
+.buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: .5rem;
+          column-gap: .5rem;
+  margin: 3rem 0rem;
+}
+
+@media screen and (max-width: 500px) {
+  .buttons {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.buttons .btn-port {
+  width: 100%;
+  background-color: inherit;
+  color: #0C090D;
+  border-left: 2px solid #0c090d;
+  border-right: 2px solid #0c090d;
+  border-bottom: 2px solid #0c090d;
+  border-top: 2px solid #0c090d;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.buttons .btn-port:hover {
+  border-top: 1px solid #c36c32;
+  border-left: 1px solid #c36c32;
+  border-right: 1px solid #c36c32;
+  border-bottom: 1px solid #c36c32;
+  background-color: #c36c32;
+  color: #f4f4f9;
+}
+
 .portfolios {
   width: 100%;
   display: -ms-grid;
@@ -556,12 +731,19 @@
           column-gap: .5rem;
 }
 
+@media screen and (max-width: 1300px) {
+  .portfolios {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .portfolios .portfolio {
   padding: 4rem 6rem;
-  border-left: 1px solid #0c090d;
-  border-right: 1px solid #0c090d;
-  border-bottom: 1px solid #0c090d;
-  border-top: 1px solid #0c090d;
+  border-left: 2px solid #0c090d;
+  border-right: 2px solid #0c090d;
+  border-bottom: 2px solid #0c090d;
+  border-top: 2px solid #0c090d;
 }
 
 .portfolios .portfolio .image-data {
@@ -571,18 +753,16 @@
 .portfolios .portfolio .image-data::before {
   content: "";
   position: absolute;
-  top: 90%;
-  left: 15px;
-  height: 4px;
-  width: calc(100% - 30px);
+  height: 100%;
+  width: 100%;
   background-color: #C36C32;
-  -webkit-transform-origin: left;
-          transform-origin: left;
+  -webkit-transform-origin: center;
+          transform-origin: center;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  opacity: 0.9;
+  opacity: 0.2;
 }
 
 .portfolios .portfolio .image-data:hover::before {
@@ -604,9 +784,9 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: #C36C32;
   padding: 1rem 2rem;
   visibility: hidden;
+  border-radius: 100%;
 }
 
 .portfolios .portfolio .image-data .hover-items li {
@@ -614,20 +794,26 @@
 }
 
 .portfolios .portfolio .image-data .hover-items li a {
-  position: absolute;
   padding: 1rem;
   text-decoration: none;
+  color: #F4F4F9;
+  text-transform: capitalize;
   font-family: inherit;
+  font-weight: 600;
   border-radius: 100%;
-  background-color: #F4F4F9;
+  background-color: #C36C32;
   top: 0;
+}
+
+.portfolios .portfolio .image-data .hover-items .gitIcon {
+  color: red;
 }
 
 .portfolios .portfolio .image-data:hover .hover-items {
   -webkit-transition: all .5s ease-in-out .3s;
   transition: all .5s ease-in-out .3s;
   visibility: visible;
-  top: 50%;
+  top: 80%;
 }
 
 .portfolios .portfolio h5 {
@@ -678,12 +864,24 @@ span {
   text-transform: uppercase;
 }
 
-.videoTag {
-  height: 100%;
-  width: 100%;
-  float: right;
-  top: 0;
-  padding: none;
-  position: fixed;
+@media screen and (max-width: 411px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 70%;
+  }
+  h3 {
+    font-size: 70%;
+  }
 }
 /*# sourceMappingURL=App.css.map */

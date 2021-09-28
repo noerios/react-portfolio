@@ -1,3 +1,41 @@
+.buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: .5rem;
+          column-gap: .5rem;
+  margin: 3rem 0rem;
+}
+
+@media screen and (max-width: 500px) {
+  .buttons {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.buttons .btn-port {
+  width: 100%;
+  background-color: inherit;
+  color: #0C090D;
+  border-left: 2px solid #0c090d;
+  border-right: 2px solid #0c090d;
+  border-bottom: 2px solid #0c090d;
+  border-top: 2px solid #0c090d;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.buttons .btn-port:hover {
+  border-top: 1px solid #c36c32;
+  border-left: 1px solid #c36c32;
+  border-right: 1px solid #c36c32;
+  border-bottom: 1px solid #c36c32;
+  background-color: #c36c32;
+  color: #f4f4f9;
+}
+
 .portfolios {
   width: 100%;
   display: -ms-grid;
@@ -9,12 +47,19 @@
           column-gap: .5rem;
 }
 
+@media screen and (max-width: 1300px) {
+  .portfolios {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .portfolios .portfolio {
   padding: 4rem 6rem;
-  border-left: 1px solid #0c090d;
-  border-right: 1px solid #0c090d;
-  border-bottom: 1px solid #0c090d;
-  border-top: 1px solid #0c090d;
+  border-left: 2px solid #0c090d;
+  border-right: 2px solid #0c090d;
+  border-bottom: 2px solid #0c090d;
+  border-top: 2px solid #0c090d;
 }
 
 .portfolios .portfolio .image-data {
@@ -24,18 +69,16 @@
 .portfolios .portfolio .image-data::before {
   content: "";
   position: absolute;
-  top: 90%;
-  left: 15px;
-  height: 4px;
-  width: calc(100% - 30px);
+  height: 100%;
+  width: 100%;
   background-color: #C36C32;
-  -webkit-transform-origin: left;
-          transform-origin: left;
+  -webkit-transform-origin: center;
+          transform-origin: center;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  opacity: 0.9;
+  opacity: 0.2;
 }
 
 .portfolios .portfolio .image-data:hover::before {
@@ -57,9 +100,9 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: #C36C32;
   padding: 1rem 2rem;
   visibility: hidden;
+  border-radius: 100%;
 }
 
 .portfolios .portfolio .image-data .hover-items li {
@@ -67,20 +110,26 @@
 }
 
 .portfolios .portfolio .image-data .hover-items li a {
-  position: absolute;
   padding: 1rem;
   text-decoration: none;
+  color: #F4F4F9;
+  text-transform: capitalize;
   font-family: inherit;
+  font-weight: 600;
   border-radius: 100%;
-  background-color: #F4F4F9;
+  background-color: #C36C32;
   top: 0;
+}
+
+.portfolios .portfolio .image-data .hover-items .gitIcon {
+  color: red;
 }
 
 .portfolios .portfolio .image-data:hover .hover-items {
   -webkit-transition: all .5s ease-in-out .3s;
   transition: all .5s ease-in-out .3s;
   visibility: visible;
-  top: 50%;
+  top: 80%;
 }
 
 .portfolios .portfolio h5 {
